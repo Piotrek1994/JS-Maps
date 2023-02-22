@@ -7,6 +7,6 @@ export default function Home() {
     libraries: ['places'],
 
   });
-  if(!isLoaded) return <div>Loading...</div>;
-  return <Map />;
+  if(!isLoaded) return <></><div>Loading...</div>;
+  return <Map/>;
 }
